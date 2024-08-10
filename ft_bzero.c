@@ -3,10 +3,10 @@
 /*                                                        :::      ::::::::   */
 /*   ft_bzero.c                                         :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: slaajour <slaajour@student.42.fr>          +#+  +:+       +#+        */
+/*   By: salmalaajouri <salmalaajouri@student.42    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2021/11/11 17:59:07 by slaajour          #+#    #+#             */
-/*   Updated: 2021/11/26 18:24:11 by slaajour         ###   ########.fr       */
+/*   Updated: 2024/08/10 23:00:25 by salmalaajou      ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -25,12 +25,13 @@ void	ft_bzero(void *s, size_t n)
 		i++;
 	}
 }
-// /*int main()
-// {
-//     char s[] = "salma";
-//     int i = 4;
-//     ft_bzero(s, i);
-//     printf("this is mine %s", s);
-//     bzero(s,i);
-//     printf("\ntheir one %s", s);
-// }*/
+
+int main()
+{
+    char s[] = "salma";
+    int i = 4;
+    ft_bzero(s, i);
+    printf("Mine %s", s);
+    bzero(s,i);
+    printf("\n Not mine %s", s);
+}

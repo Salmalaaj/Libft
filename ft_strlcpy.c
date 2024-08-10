@@ -3,10 +3,10 @@
 /*                                                        :::      ::::::::   */
 /*   ft_strlcpy.c                                       :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: slaajour <slaajour@student.42.fr>          +#+  +:+       +#+        */
+/*   By: salmalaajouri <salmalaajouri@student.42    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2021/11/13 16:09:26 by slaajour          #+#    #+#             */
-/*   Updated: 2021/11/13 17:32:39 by slaajour         ###   ########.fr       */
+/*   Updated: 2024/08/10 23:02:09 by salmalaajou      ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -33,7 +33,7 @@ size_t	ft_strlcpy(char *dst, const char *src, size_t dstsize)
  int main()
  {
        char src[] = "salma";
-       char dst[] = "sila";
+       char dst[] = "sousou";
        printf("%zu\n", ft_strlcpy(dst, src, 2));
        printf("%zu", strlcpy(dst, src, 2));
 

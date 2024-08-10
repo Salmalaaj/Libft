@@ -3,10 +3,10 @@
 /*                                                        :::      ::::::::   */
 /*   ft_memmove.c                                       :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: slaajour <slaajour@student.42.fr>          +#+  +:+       +#+        */
+/*   By: salmalaajouri <salmalaajouri@student.42    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2021/11/11 01:20:22 by slaajour          #+#    #+#             */
-/*   Updated: 2021/11/13 16:42:20 by slaajour         ###   ########.fr       */
+/*   Updated: 2024/08/10 23:01:07 by salmalaajou      ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -32,7 +32,7 @@ void	*ft_memmove(void *dst, const void *src, size_t len)
 // int main()
 // {
 // 	char dst[] = "salma";
-// 	char src[] = "ouissal";
+// 	char src[] = "sousou";
 // 	/*int size = 128 * 1024 * 1024;
 // 		char *dst = (char *)malloc(sizeof(char) * size);
 // 		char *data = (char *)malloc(sizeof(char) * size);

@@ -3,10 +3,10 @@
 /*                                                        :::      ::::::::   */
 /*   ft_strmapi.c                                       :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: slaajour <slaajour@student.42.fr>          +#+  +:+       +#+        */
+/*   By: salmalaajouri <salmalaajouri@student.42    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2021/11/26 18:05:47 by slaajour          #+#    #+#             */
-/*   Updated: 2021/11/27 15:02:35 by slaajour         ###   ########.fr       */
+/*   Updated: 2024/08/10 23:02:37 by salmalaajou      ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -33,7 +33,7 @@ char	*ft_strmapi(char const *s, char (*f)(unsigned int, char))
 }
 // #include <stdio.h>
 
-// char diali(unsigned int i, char c)
+// char test(unsigned int i, char c)
 // {
 // 	c += i;
 // 	return c;
@@ -41,6 +41,6 @@ char	*ft_strmapi(char const *s, char (*f)(unsigned int, char))
 
 // int main(void)
 // {
-// 	char *p = ft_strmapi("000000000000", diali);
+// 	char *p = ft_strmapi("000000000000", test);
 // 	printf("%s", p);
 // }

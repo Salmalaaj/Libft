@@ -3,10 +3,10 @@
 /*                                                        :::      ::::::::   */
 /*   ft_strncmp.c                                       :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: slaajour <slaajour@student.42.fr>          +#+  +:+       +#+        */
+/*   By: salmalaajouri <salmalaajouri@student.42    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2021/11/09 16:59:53 by slaajour          #+#    #+#             */
-/*   Updated: 2021/11/26 22:47:07 by slaajour         ###   ########.fr       */
+/*   Updated: 2024/08/10 23:02:54 by salmalaajou      ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -26,7 +26,7 @@ int	ft_strncmp(const char *s1, const char *s2, size_t n)
 
 /*int main()
 {
-    char s1[] = "wahya salma";
-    char s2[] = "zahya selma";
+    char s1[] = "salma";
+    char s2[] = "selma";
     printf("%d", ft_strncmp(s1, s2, 0));
 }*/
