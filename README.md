@@ -67,9 +67,6 @@ int main(void)
 
 While the project doesn’t require submission of test cases, I strongly recommend writing tests for each function to ensure correctness and to simplify the debugging process. This also helps during peer evaluation and defense.
 
-## License
-
-This project is open-source and available under the [MIT License](LICENSE).
 
 ## Conclusion
 
